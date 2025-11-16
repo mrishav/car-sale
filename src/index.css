@@ -201,3 +201,26 @@ body {
   overflow-x: hidden;
   width: 100%;
 }
+
+/* Image Loading Optimization */
+img {
+  content-visibility: auto;
+}
+
+img[loading="lazy"] {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* Blur up effect for loading images */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+img {
+  animation: fadeIn 0.3s ease-in;
+}

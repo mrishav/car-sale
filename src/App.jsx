@@ -126,6 +126,8 @@ function App() {
             src="/images/car/Experimental/DSC06719.jpeg" 
             alt="McLaren 570S"
             className="w-full h-auto md:h-full object-contain md:object-cover md:object-center rounded-2xl md:rounded-none"
+            loading="eager"
+            decoding="async"
           />
           {/* Gradient only on desktop */}
           <div className="hidden md:block absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/90"></div>
@@ -230,6 +232,7 @@ function App() {
                   alt={`McLaren 570S Featured ${index + 1}`}
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 group-hover:rotate-1"
                   loading="lazy"
+                  decoding="async"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 <div className="absolute inset-0 border-2 border-white/0 group-hover:border-white/20 transition-all duration-500 rounded-2xl"></div>
@@ -332,6 +335,7 @@ function App() {
                     alt={`McLaren 570S Exterior ${index + 1}`}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                     loading="lazy"
+                    decoding="async"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   
@@ -358,6 +362,7 @@ function App() {
                     alt={`McLaren 570S Interior ${index + 1}`}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                     loading="lazy"
+                    decoding="async"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   
