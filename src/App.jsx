@@ -161,15 +161,15 @@ function App() {
             <div className="glass-card rounded-2xl md:rounded-3xl p-6 md:p-12 text-left animate-fade-in-up stagger-4">
               <div className="prose prose-lg max-w-none text-gray-300 leading-relaxed space-y-6">
                 <p>
-                  We're looking to sell our McLaren 570S because we're unfortunately out of garage space. The car belongs to my dad and has been with us for almost its entire life. He bought it when it was a year old with just 1,797 miles, and it has stayed in California ever since.
+                  We're looking to sell our McLaren 570S because we're unfortunately out of garage space. The car has been with us for almost its entire life. We purchased it when it was a year old with just 1,797 miles, and it has stayed in California ever since.
                 </p>
                 
                 <p>
-                  It's been cared for extremely well. The car has full STEK Dyno PPF and ceramic coating from Wrap Culture, and it's been regularly detailed by Josh Tan. All servicing has been done exclusively through McLaren San Francisco. My dad mainly drove it to dinners and the occasional Trader Joe's run.
+                  It's been cared for extremely well. The car has full STEK Dyno PPF and ceramic coating from Wrap Culture, and it's been regularly detailed by Josh Tan. All servicing has been done exclusively through McLaren San Francisco. It was mainly used for relaxed evening drives and the occasional Trader Joe's run.
                 </p>
                 
                 <p>
-                  It has 8,699 miles and is a great 570S spec: metallic Silica White, sports exhaust, carbon ceramic brakes, and the Bowers & Wilkins audio system. It's always been garage-kept and the condition inside and out reflects that.
+                  It has 8,699 miles and is a great 570S spec: metallic Silica White, sports exhaust, carbon ceramic brakes, and the Bowers & Wilkins audio system. It's always been garage-kept, and the condition inside and out reflects that.
                 </p>
                 
                 <p>
