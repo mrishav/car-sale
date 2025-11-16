@@ -119,7 +119,7 @@ function App() {
       </nav>
 
       {/* Hero Section - Full Screen Image */}
-      <section className="relative py-12 md:py-0 md:h-screen flex items-center justify-center bg-black">
+      <section className="relative pt-24 pb-12 md:pt-0 md:pb-0 md:h-screen flex items-center justify-center bg-black">
         {/* Mobile: Rounded card-style image, Desktop: Full screen */}
         <div className="relative w-full max-w-7xl mx-auto px-4 md:px-0 md:absolute md:inset-0">
           <img 
@@ -137,7 +137,7 @@ function App() {
         </div>
 
         {/* Minimal badge */}
-        <div className="absolute top-20 md:top-24 left-1/2 transform -translate-x-1/2 z-20 animate-fade-in-up px-4">
+        <div className="absolute top-28 md:top-24 left-1/2 transform -translate-x-1/2 z-20 animate-fade-in-up px-4">
           <div className="glass-card px-4 md:px-6 py-2 md:py-3 rounded-full animate-glow-pulse">
             <span className="text-white font-semibold text-xs md:text-sm whitespace-nowrap">2019 McLaren 570S • 8,699 Miles</span>
           </div>
