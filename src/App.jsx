@@ -69,7 +69,7 @@ function App() {
             
             {/* Desktop Navigation */}
             <div className="hidden md:flex space-x-8 items-center">
-              <a href="#features" className="text-sm text-gray-400 hover:text-white transition">Features</a>
+              <a href="#features" className="text-sm text-gray-400 hover:text-white transition">Options</a>
               <a href="#gallery" className="text-sm text-gray-400 hover:text-white transition">Gallery</a>
               <a href="#contact" className="bg-white text-black px-5 py-2 rounded-full text-sm font-medium hover:bg-gray-200 transition-all">Contact</a>
             </div>
@@ -97,7 +97,7 @@ function App() {
                 className="block text-gray-400 hover:text-white transition py-2"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                Features
+                Options
               </a>
               <a 
                 href="#gallery" 
@@ -125,10 +125,10 @@ function App() {
           <img 
             src="/images/car/Experimental/DSC06719.jpeg" 
             alt="McLaren 570S"
-            className="w-full h-full object-cover object-center"
-            style={{ objectPosition: 'center center' }}
+            className="w-full h-full object-contain md:object-cover md:object-center"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/90"></div>
+          {/* Top and bottom gradient blend */}
+          <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-transparent via-50% to-black"></div>
         </div>
 
         {/* Scroll indicator */}
@@ -243,10 +243,10 @@ function App() {
       <section id="features" className="py-20 bg-black">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-center animate-fade-in-up">
-            <span className="gradient-text">Options & Features</span>
+            <span className="gradient-text">Options</span>
           </h2>
           <p className="text-gray-400 text-center mb-8 md:mb-12 text-base md:text-lg">
-            Comprehensive factory specifications and upgrades
+            Comprehensive factory specifications
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-4">
