@@ -119,24 +119,24 @@ function App() {
       </nav>
 
       {/* Hero Section - Full Screen Image */}
-      <section className="relative h-screen flex items-end justify-center overflow-hidden bg-black">
-        {/* Full Screen Background Image */}
-        <div className="absolute inset-0">
+      <section className="relative py-12 md:py-0 md:h-screen flex items-center justify-center bg-black">
+        {/* Mobile: Rounded card-style image, Desktop: Full screen */}
+        <div className="relative w-full max-w-7xl mx-auto px-4 md:px-0 md:absolute md:inset-0">
           <img 
             src="/images/car/Experimental/DSC06719.jpeg" 
             alt="McLaren 570S"
-            className="w-full h-full object-contain md:object-cover md:object-center"
+            className="w-full h-auto md:h-full object-contain md:object-cover md:object-center rounded-2xl md:rounded-none"
           />
-          {/* Top and bottom gradient blend */}
-          <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-transparent via-50% to-black"></div>
+          {/* Gradient only on desktop */}
+          <div className="hidden md:block absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/90"></div>
         </div>
 
-        {/* Scroll indicator */}
-        <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce z-20">
+        {/* Scroll indicator - desktop only */}
+        <div className="hidden md:block absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce z-20">
           <ChevronDown className="text-white" size={28} />
         </div>
 
-        {/* Minimal badge - always visible */}
+        {/* Minimal badge */}
         <div className="absolute top-20 md:top-24 left-1/2 transform -translate-x-1/2 z-20 animate-fade-in-up px-4">
           <div className="glass-card px-4 md:px-6 py-2 md:py-3 rounded-full animate-glow-pulse">
             <span className="text-white font-semibold text-xs md:text-sm whitespace-nowrap">2019 McLaren 570S • 8,699 Miles</span>
@@ -145,7 +145,7 @@ function App() {
       </section>
 
       {/* About Section - Personal Story */}
-      <section className="relative py-32 bg-black">
+      <section className="relative py-16 md:py-32 bg-black">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-8">
             <div>
@@ -210,7 +210,7 @@ function App() {
       </section>
 
       {/* Experimental Photos Section */}
-      <section className="py-24 bg-black">
+      <section className="py-12 md:py-24 bg-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12 md:mb-16">
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-black tracking-tight gradient-text mb-4 animate-fade-in-up">
@@ -240,7 +240,7 @@ function App() {
       </section>
 
       {/* Options & Features */}
-      <section id="features" className="py-20 bg-black">
+      <section id="features" className="py-12 md:py-20 bg-black">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-center animate-fade-in-up">
             <span className="gradient-text">Options</span>
@@ -261,7 +261,7 @@ function App() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-20 bg-black">
+      <section id="contact" className="py-12 md:py-20 bg-black">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 animate-fade-in-up">
@@ -309,7 +309,7 @@ function App() {
       </section>
 
       {/* Full Gallery Section */}
-      <section id="gallery" className="py-32 bg-black">
+      <section id="gallery" className="py-16 md:py-32 bg-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12 md:mb-20">
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-black tracking-tight gradient-text mb-4 animate-fade-in-up">
@@ -318,7 +318,7 @@ function App() {
           </div>
           
           {/* Exterior Photos */}
-          <div className="mb-24">
+          <div className="mb-12 md:mb-24">
             <h3 className="text-3xl md:text-4xl font-bold mb-6 md:mb-10 text-white">Exterior</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
               {exteriorImages.map((image, index) => (
@@ -344,7 +344,7 @@ function App() {
           </div>
 
           {/* Interior Photos */}
-          <div>
+          <div className="mt-12 md:mt-0">
             <h3 className="text-3xl md:text-4xl font-bold mb-6 md:mb-10 text-white">Interior</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
               {interiorImages.map((image, index) => (
