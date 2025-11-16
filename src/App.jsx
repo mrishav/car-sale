@@ -125,7 +125,8 @@ function App() {
           <img 
             src="/images/car/Experimental/DSC06719.jpeg" 
             alt="McLaren 570S"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover object-center"
+            style={{ objectPosition: 'center center' }}
           />
           <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/90"></div>
         </div>
