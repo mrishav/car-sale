@@ -1,7 +1,7 @@
 # Car Sale Landing Page
 
 **Description**  
-A modern website template designed to help sell a car.  
+A website template designed to help sell a car.  
 Feel free to use or customize this template for selling your own vehicle.
 
 ## Website Features
