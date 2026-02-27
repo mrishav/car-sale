@@ -155,7 +155,6 @@ function App() {
                 2019 McLaren 570S
               </h1>
               <p className="text-lg sm:text-xl md:text-3xl font-light text-gray-400 mb-2 animate-fade-in-up stagger-2">Coupe • Silica White • 8,699 Miles</p>
-              <p className="text-2xl sm:text-3xl md:text-4xl font-bold gradient-text mt-4 animate-scale-in stagger-3">$145,000</p>
             </div>
 
             <div className="glass-card rounded-2xl md:rounded-3xl p-6 md:p-12 text-left animate-fade-in-up stagger-4">
