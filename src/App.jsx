@@ -141,7 +141,7 @@ function App() {
         {/* Minimal badge */}
         <div className="absolute top-28 md:top-24 left-1/2 transform -translate-x-1/2 z-20 animate-fade-in-up px-4">
           <div className="glass-card px-4 md:px-6 py-2 md:py-3 rounded-full animate-glow-pulse">
-            <span className="text-white font-semibold text-xs md:text-sm whitespace-nowrap">2019 McLaren 570S • 8,699 Miles</span>
+            <span className="text-white font-semibold text-xs md:text-sm whitespace-nowrap">2019 McLaren 570S • 9,030 Miles</span>
           </div>
         </div>
       </section>
@@ -154,7 +154,7 @@ function App() {
               <h1 className="text-4xl sm:text-5xl md:text-7xl font-black tracking-tighter gradient-text mb-4 md:mb-6 animate-fade-in-up stagger-1">
                 2019 McLaren 570S
               </h1>
-              <p className="text-lg sm:text-xl md:text-3xl font-light text-gray-400 mb-2 animate-fade-in-up stagger-2">Coupe • Silica White • 8,699 Miles</p>
+              <p className="text-lg sm:text-xl md:text-3xl font-light text-gray-400 mb-2 animate-fade-in-up stagger-2">Coupe • Silica White • 9,030 Miles</p>
             </div>
 
             <div className="glass-card rounded-2xl md:rounded-3xl p-6 md:p-12 text-left animate-fade-in-up stagger-4">
@@ -168,7 +168,7 @@ function App() {
                 </p>
                 
                 <p>
-                  It has 8,699 miles and is a great 570S spec: metallic Silica White, sports exhaust, carbon ceramic brakes, and the Bowers & Wilkins audio system. It's always been garage-kept, and the condition inside and out reflects that.
+                  It has 9,030 miles and is a great 570S spec: metallic Silica White, sports exhaust, carbon ceramic brakes, and the Bowers & Wilkins audio system. It's always been garage-kept, and the condition inside and out reflects that.
                 </p>
                 
                 <p>
@@ -445,7 +445,7 @@ function App() {
       {/* Footer */}
       <footer className="bg-black py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-400">
-          <p className="font-medium">2019 McLaren 570S Coupe • Silica White • 8,699 Miles</p>
+          <p className="font-medium">2019 McLaren 570S Coupe • Silica White • 9,030 Miles</p>
           <p className="mt-2 text-sm">Clean CARFAX • No Accidents • California Car • McLaren Serviced</p>
           <p className="mt-4 text-xs text-gray-500">Contact: rishavmitrasaab@gmail.com • 650-279-1905</p>
         </div>
