@@ -22,3 +22,6 @@ Feel free to use or customize this template for selling your own vehicle.
 npm install
 npm run dev
 npm run build
+```
+## Author
+Rishav Mitra
