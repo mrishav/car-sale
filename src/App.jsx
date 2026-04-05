@@ -151,7 +151,7 @@ function App() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-8">
             <div>
-              <h1 className="text-4xl sm:text-5xl md:text-7xl font-black tracking-tighter gradient-text mb-4 md:mb-6 animate-fade-in-up stagger-1">
+              <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold tracking-tighter text-white mb-4 md:mb-6 animate-fade-in-up stagger-1">
                 2019 McLaren 570S
               </h1>
               <p className="text-lg sm:text-xl md:text-3xl font-light text-gray-400 mb-2 animate-fade-in-up stagger-2">Coupe • Silica White • 9,030 Miles</p>
@@ -214,7 +214,7 @@ function App() {
       <section className="py-12 md:py-24 bg-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12 md:mb-16">
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-black tracking-tight gradient-text mb-4 animate-fade-in-up">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white mb-4 animate-fade-in-up">
               Featured Shots
             </h2>
           </div>
@@ -245,7 +245,7 @@ function App() {
       <section id="features" className="py-12 md:py-20 bg-black">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-center animate-fade-in-up">
-            <span className="gradient-text">Options</span>
+            <span className="text-white">Options</span>
           </h2>
           <p className="text-gray-400 text-center mb-8 md:mb-12 text-base md:text-lg">
             Comprehensive factory specifications
@@ -267,7 +267,7 @@ function App() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 animate-fade-in-up">
-              <span className="gradient-text">Contact Info</span>
+              <span className="text-white">Contact Info</span>
             </h2>
             <p className="text-gray-500 text-sm italic mt-2">
               Serious inquiries only
@@ -314,7 +314,7 @@ function App() {
       <section id="gallery" className="py-16 md:py-32 bg-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12 md:mb-20">
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-black tracking-tight gradient-text mb-4 animate-fade-in-up">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white mb-4 animate-fade-in-up">
               Complete Gallery
             </h2>
           </div>
